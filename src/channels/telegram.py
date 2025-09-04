@@ -11,7 +11,6 @@ async def auth(): # Создаёт и возвращает экземпляр Te
         bot = TelegramBot()
     return bot
 
-
 class TelegramBot:
     def __init__(self):
         self.api_id = API_ID
