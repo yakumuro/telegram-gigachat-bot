@@ -1,0 +1,16 @@
+{
+    "analysis_period": {
+        "from": "2025-09-03T00:00:00+00:00",
+        "to": "2025-09-04T23:59:59+00:00"
+    },
+    "total_messages_processed": 103,
+    "filtered_out": 43,
+    "used_in_analysis": 60,
+    "feature_requests": [],
+    "bugs": [],
+    "filtered_messages_examples": [
+        "ахаха",
+        "кто тут?",
+        "продам аккаунт"
+    ]
+}
