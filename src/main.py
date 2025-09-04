@@ -12,9 +12,9 @@ def save_result(data, filename="output/analysis_result.json"):
     try:
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
-        logger.info(f"✅ Результат анализа сохранён в {filename}")
+        logger.info(f"Результат анализа сохранён в {filename}")
     except Exception as e:
-        logger.error(f"❌ Ошибка при сохранении файла: {e}")
+        logger.error(f"Ошибка при сохранении файла: {e}")
 
 def main():
     try:
