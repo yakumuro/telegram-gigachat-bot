@@ -1,0 +1,7 @@
+telethon
+datetime
+asyncio
+requests
+python-dotenv
+telebot
+uuid
